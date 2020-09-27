@@ -10,6 +10,21 @@ h1 {
 	margin-bottom: 150px;
 	margin-top: 40px;
 }
+
+input {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	align-self: center;
+	display: block;
+}
+
+button {
+	margin: 0 auto;
+	align-self: center;
+	display: block;
+	margin-bottom: 30px;
+}
+
 /* game board table */
 
 #board {
@@ -33,13 +48,6 @@ h1 {
 	animation-duration: 0.5s;
 }
 
-.piece.p1 {
-	background-color: #b81c1c;
-}
-
-.piece.p2 {
-	background-color: #2758ab;
-}
 /* column-top is table row of clickable areas for each column */
 
 #column-top td {
